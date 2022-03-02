@@ -7,8 +7,8 @@ class HomeScreen(MDScreen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         
-    def start_listing(self,btn):
-        print("its working HomeScreen")
+    def btn_press_test(self):
+        print("its working")
     pass
     """
     Example Screen.
