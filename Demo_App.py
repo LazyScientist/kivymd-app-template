@@ -32,7 +32,8 @@ class Demo_App(MDApp):  # NOQA: N801
     def __init__(self, **kwargs):
         super(Demo_App, self).__init__(**kwargs)
         Window.soft_input_mode = "below_target"
-        self.title = "So_Called_Engineers"
+        self.icon= os.path.join('assets','icons','my_icon.png')
+        self.title = "My_Demo_App"
 
         self.theme_cls.primary_palette = "DeepOrange"
         self.theme_cls.primary_hue = "500"
@@ -43,5 +44,4 @@ class Demo_App(MDApp):  # NOQA: N801
         self.theme_cls.theme_style = "Dark"
 
     def build(self):
-        self.icon= os.path.join('assets','icons','my_icon.png')
         return Root()
