@@ -12,6 +12,8 @@ try:
 except :
     print('not android')
 
+Window.keyboard_anim_args = {'d': .2, 't': 'in_out_expo'}
+Window.softinput_mode = "below_target"  
 
 
 # This is needed for supporting Windows 10 with OpenGL < v2.0
@@ -20,6 +22,8 @@ if platform.system() == "Windows":
 else:
     if not check_permission(Permission.RECORD_AUDIO):
         request_permission(Permission.RECORD_AUDIO)
+    if not check_permission(Permission.CAMERA):
+        request_permission(Permission.CAMERA)
     else:
         print('Permission OK')
     Window.clear()
