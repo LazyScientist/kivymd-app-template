@@ -43,4 +43,5 @@ class Demo_App(MDApp):  # NOQA: N801
         self.theme_cls.theme_style = "Dark"
 
     def build(self):
+        self.icon= os.path.join('assets','icons','my_icon.png')
         return Root()
