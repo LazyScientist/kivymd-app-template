@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = So_Called_Engineers
+title = Demo_App
 
 # (str) Package name
-package.name = operation_semistor
+package.name = kivymd_Demo_App_Package
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.pankaj jangir SCIENTIST
+package.domain = org.pankaj_jangir_SCIENTIST
 
 # (str) Source code where the main.py live
 source.dir = .

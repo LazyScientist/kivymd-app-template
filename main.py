@@ -8,7 +8,7 @@ import json  # NOQA: E402
 import traceback  # NOQA: E402
 
 from kivy.factory import Factory  # NOQA: E402
-from operation_semistor import Operation_semistor  # NOQA: E402
+from Demo_App import Demo_App  # NOQA: E402
 
 __version__ = "1.1.1"
 
@@ -25,7 +25,7 @@ with open("factory_registers.json") as fd:
 
 
 try:
-    Operation_semistor().run()
+    Demo_App().run()
 except Exception:
     error = traceback.format_exc()
 

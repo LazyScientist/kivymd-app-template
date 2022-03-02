@@ -28,9 +28,9 @@ else:
     Window.maximize() 
 
 
-class Operation_semistor(MDApp):  # NOQA: N801
+class Demo_App(MDApp):  # NOQA: N801
     def __init__(self, **kwargs):
-        super(Operation_semistor, self).__init__(**kwargs)
+        super(Demo_App, self).__init__(**kwargs)
         Window.soft_input_mode = "below_target"
         self.title = "So_Called_Engineers"
 
