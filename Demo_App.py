@@ -49,3 +49,9 @@ class Demo_App(MDApp):  # NOQA: N801
 
     def build(self):
         return Root()
+
+
+
+#Note
+# use os.path.join('folder','sub_folder','file.extension')   instead of using 'folder/sub_folder/file.extension'
+
