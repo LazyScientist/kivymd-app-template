@@ -1,9 +1,17 @@
 # kivymd-demo-app-template
 you can start your codeing for your project by using this template 
 this project is tested , and run at android
+ 
+ <br>
+ 
+<ul type="square">
+    <li>compiles successfully using buildozer </li>
+    <li>run on Android without Crashing</li>
+<!--     <li>Item 3</li> -->
+</ul> 
+ 
   
-  compiles successfully using buildozer 
-  run on Android without Crashing
+  
   
 ## python file to Android APK
 you can convert your python file to android apk using google colab without any error 
