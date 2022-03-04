@@ -7,7 +7,7 @@ this project is tested , and run at android
 <ul type="square">
     <li>compiles successfully using buildozer </li>
     <li>run on Android without Crashing</li>
-    <li>This template has fully functional kivymd hotreloder</li>
+    <li>This template has fully functional kivymd hotreloader</li>
 </ul> 
  
   
