@@ -1,4 +1,4 @@
-# kivymd-demo-app-template
+# kivymd-app-template
 you can start your codeing for your project by using this template 
 this project is tested , and run at android
  
