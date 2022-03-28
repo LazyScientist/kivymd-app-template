@@ -7,7 +7,7 @@ title = Demo_App
 package.name = kivymd_Demo_App_Package
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.pankaj_jangir_SCIENTIST
+package.domain = org.LazyScientist
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -123,7 +123,7 @@ android.permissions = INTERNET,RECORD_AUDIO, ACCESS_NETWORK_STATE,BATTERY_STATS,
 # agreements. This is intended for automation only. If set to False,
 # the default, you will be shown the license when first running
 # buildozer.
-# android.accept_sdk_license = False
+android.accept_sdk_license = True
 
 # (str) Android entry point, default is ok for Kivy-based app
 #android.entrypoint = org.renpy.android.PythonActivity
